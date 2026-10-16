@@ -16,3 +16,29 @@ footer{border-top:1px solid var(--line);padding:24px 0;color:var(--mute);font:14
 table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);font:15px/1.5 system-ui,sans-serif;margin-bottom:16px}th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}th{background:var(--alt)}
 
 figure.shot{margin:24px 0 0}figure.shot img{display:block;width:100%;height:auto;border:1px solid #d9d4c7}figure.shot figcaption{font-size:14px;margin-top:8px;opacity:.75}.shots{display:grid;gap:28px}.dl{margin:12px 0 0;font-size:15px}
+
+.doc{background:#fff;border:1px solid #d9d4c7;box-shadow:0 1px 2px rgba(0,0,0,.04),0 8px 24px rgba(0,0,0,.05);margin:24px 0 0;padding:clamp(20px,5vw,48px);font-family:-apple-system,"Helvetica Neue",Arial,sans-serif;color:#14181f;line-height:1.5}
+.doc .dh{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;border-bottom:1px solid #e3dfd2;padding-bottom:16px}
+.doc .dn{font:700 22px/1 Georgia,"Times New Roman",serif}
+.doc .tag{font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;background:#ece8dc;color:#3b3b36;padding:6px 10px}
+.doc .kick{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#5a6270;font-weight:600;margin:26px 0 10px}
+.doc h3.dt{font:400 clamp(28px,5vw,44px)/1.1 Georgia,"Times New Roman",serif;letter-spacing:-.02em;margin:0 0 12px}
+.doc .sub{color:#5a6270;margin:0 0 20px;font-size:16px}
+.doc .callout{background:#f1efe9;padding:14px 18px;font-size:15px;margin:20px 0}
+.doc h4{font:400 24px/1.2 Georgia,serif;margin:28px 0 8px}
+.doc .item{display:flex;gap:18px;padding:18px 0;border-top:1px dashed #d9d4c7}
+.doc .num{font:400 22px/1.2 Georgia,serif;color:var(--acc);flex:none;width:30px}
+.doc .item h5{font-size:16px;margin:0 0 6px}
+.doc .item p{margin:4px 0;font-size:15px;color:#2b313b}
+.doc code,.doc pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.doc .foot{border-top:1px solid #e3dfd2;margin-top:24px;padding-top:12px;font-size:12.5px;color:#5a6270}
+.doc .foot p{margin:2px 0}
+.doc .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;border-top:1px dashed #d9d4c7;border-bottom:1px dashed #d9d4c7;padding:18px 0;margin:8px 0 0}
+.doc .stats b{display:block;font:400 40px/1.1 Georgia,serif}.doc .stats span{font-size:13px;color:#5a6270}
+.doc .pill{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:#ece8dc;padding:3px 8px;margin-bottom:8px}
+.doc pre{background:#f6f6f4;border:1px solid #e3dfd2;padding:18px;margin:16px 0;font-size:13.5px;line-height:1.6;overflow-x:auto;white-space:pre}
+.shots figure.shot{margin:0}.shots figcaption,figure.shot figcaption{font-size:14px;margin-top:8px;color:#5a6270;opacity:1}
+@media(max-width:560px){.doc .stats{grid-template-columns:1fr 1fr 1fr;gap:8px}.doc .stats b{font-size:30px}.doc .item{gap:12px}.doc .num{width:24px}.doc pre{font-size:12px;padding:12px}}
+
+.tw{overflow-x:auto;margin:0 0 4px}.doc table.st{min-width:680px;margin:0;border:0;font-size:13.5px}
+.doc table.st th{background:#25376b;color:#fff;font-size:12px;border:0;padding:10px 12px}.doc table.st td{padding:10px 12px}.doc table.st tbody tr:nth-child(even){background:#f8f6f1}
